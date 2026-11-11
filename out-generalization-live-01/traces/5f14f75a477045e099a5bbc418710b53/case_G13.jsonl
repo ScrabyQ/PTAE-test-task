@@ -1,0 +1,1 @@
+{"at": "2026-11-11T11:31:40.784892+00:00", "run_id": "5f14f75a477045e099a5bbc418710b53", "request_id": "G13", "mode": "routerai", "event": "replay", "result": {"decision": "escalate", "order_id": "O-2013", "policy_rules": ["P1", "P4", "P5", "P6", "P7"], "refund": null, "proposed_refund_total": 50001}}

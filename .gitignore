@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.venv*/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+out/.state.lock
+/volt-returns.zip

@@ -1,0 +1,2 @@
+{"at": "2026-11-11T09:16:07.901566+00:00", "run_id": "d02f394826584b91a13580690016f5e1", "request_id": "R08", "mode": "routerai", "event": "local_handoff", "code": "UNKNOWN_SENDER"}
+{"at": "2026-11-11T09:16:07.980541+00:00", "run_id": "d02f394826584b91a13580690016f5e1", "request_id": "R08", "mode": "routerai", "event": "committed_result", "result": {"decision": "escalate", "order_id": null, "policy_rules": ["P8"], "refund": null, "proposed_refund_total": null}}

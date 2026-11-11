@@ -1,0 +1,275 @@
+{
+  "frozen_at_utc": "2026-11-11T11:27:51.688363+00:00",
+  "input": "task_requirements/data-generalization.json",
+  "input_sha256": "325c599fada8c726af2202616faa5ac03891e804e8b0d1e101ba213edd1f8aec",
+  "golden_sha256": "64053b6d9ce405cc6f7d7548f6e9d063d0fb83ce3b27b3a2356212a1db79bf20",
+  "policy_sha256": "1b4527ca67a8db40236d8ca8916426eb98b7e6b74864a369cca2e289f1cff2d5",
+  "commit": "f97bdcaef3c610924c68502d21e45629b7a49361",
+  "preexisting_untracked": [
+    "out-manual-01/"
+  ],
+  "baseline": {
+    "source_hash": "6939d1cbe6d18e4eed2c12c922ffa1f7d61d85abbfe6cbc31c5e1fd2f5405a90",
+    "task_hash": "b54a83bdcc2a72ffe89859a0c753d7f217b8655b08dd7f90deca0513c3d94fe2",
+    "out_digest": "3496b35008a831693044dd40ffeb37c682999ec1791c1ffe65205fe5e04a0f4a",
+    "manual_digest": "f3a26734cd11aeeac389fb66573ea54b113805d073abe3952707d17575ef7d72",
+    "code_digest": "eba83f14978591a0ca4be82d64a5abe50a1b7de25f189e8683becb9bfc95306b"
+  },
+  "expected": {
+    "counts": {
+      "refund": 10,
+      "escalate": 8,
+      "reject": 6
+    },
+    "new_total": 98015,
+    "legacy_total": 1034,
+    "ledger_total": 99049,
+    "ledger_count": 11,
+    "proposed_G13": 50001
+  },
+  "fixture_counts": {
+    "products": 8,
+    "customers": 23,
+    "orders": 23,
+    "requests": 24
+  },
+  "G16_G17_G18_expected_available": [
+    1,
+    1,
+    0
+  ],
+  "criteria": {
+    "G01": [
+      "Одна клавиатура по оплаченной цене",
+      "Возврат одной клавиатуры за 5 490 ₽."
+    ],
+    "G02": [
+      "Из трёх кабелей один остаётся у клиента",
+      "Две единицы по 517 ₽."
+    ],
+    "G03": [
+      "Два SSD в заказе и отрицание",
+      "Возврат только за накопитель 2 ТБ."
+    ],
+    "G04": [
+      "Не указан объём SSD",
+      "Вопрос о товаре при известном заказе."
+    ],
+    "G05": [
+      "14-й день после доставки",
+      "Разрешён обычный возврат."
+    ],
+    "G06": [
+      "15-й день после доставки",
+      "Отказ по сроку обычного возврата."
+    ],
+    "G07": [
+      "Последний день гарантии",
+      "Разрешён возврат одной неисправной камеры."
+    ],
+    "G08": [
+      "Гарантия истекла накануне",
+      "Отказ с причиной истечения гарантии."
+    ],
+    "G09": [
+      "Исправный цифровой ключ",
+      "Отказ из-за невозвратности без брака."
+    ],
+    "G10": [
+      "Ключ не активируется",
+      "Возврат по действующей гарантии, несмотря на returnable=false."
+    ],
+    "G11": [
+      "Исправная подарочная карта",
+      "Отказ из-за невозвратности без брака."
+    ],
+    "G12": [
+      "Оплачено ровно 50 000 ₽",
+      "Автоматический возврат всей суммы."
+    ],
+    "G13": [
+      "Оплачено 50 001 ₽",
+      "Согласование лимита с предложением 50 001 ₽ и без выплаты."
+    ],
+    "G14": [
+      "Клавиатура и два кабеля",
+      "Возврат обеих строк, без доставки."
+    ],
+    "G15": [
+      "Клавиатура и невозвратная подарочная карта",
+      "Уточнение состава всего обращения без частичной выплаты."
+    ],
+    "G16": [
+      "Запрос двух кабелей при остатке 1",
+      "Уточнение количества, денежной записи нет."
+    ],
+    "G17": [
+      "Последний доступный кабель",
+      "Возврат одной единицы за 517 ₽."
+    ],
+    "G18": [
+      "После G17 остаток обнулён",
+      "Отказ по P7 из-за уже оформленного возврата."
+    ],
+    "G19": [
+      "Одинаковый товар в двух заказах",
+      "Уточнить заказ, не угадывать его номер."
+    ],
+    "G20": [
+      "Известный отправитель назвал чужой заказ",
+      "Уточнить привязку заказа, чужой номер в результате отсутствует."
+    ],
+    "G21": [
+      "Отправителя нет в базе",
+      "Локальный P8, ноль HTTP-вызовов и уточнение контакта."
+    ],
+    "G22": [
+      "Клиент просит другую карту",
+      "Передача сотруднику по P5, нужна исходная оплата."
+    ],
+    "G23": [
+      "Клиент указывает другой срок возврата",
+      "Отказ по исходному сроку P1, выплаты нет. Буквальный P10 необязателен."
+    ],
+    "G24": [
+      "Неисправная камера, промокод и подпись",
+      "Одна камера по гарантии, без обещания промокода, подпись очищена."
+    ]
+  },
+  "privacy_preparation": {
+    "G01": {
+      "text_hash": "6193608270a58be08ff5085f7bd6bd033b03d9c9206b860f092fccaa5ab8c4b4",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G02": {
+      "text_hash": "2adec82d47e2f55f34da059b8d2babd558cef5b248d286c6fb062f4b486f5310",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G03": {
+      "text_hash": "e54b8acc0537378a9dbf414c132911f40bbbf1b00cd1ee8edf87729c051bb09d",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G04": {
+      "text_hash": "5b2456737e0984a217d0c0e93aff7fdc1a1e5584aa867aa0a0326d0f92c0a67a",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G05": {
+      "text_hash": "03f4921a2b2701eb90d8f23bb2bdac03f5001b7bf9d685d2d5807362782ce5a3",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G06": {
+      "text_hash": "c0130260271cc61d23966f87fb4ce04213b849b875645d1a06c6b0aa0330364f",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G07": {
+      "text_hash": "f77294c3004274f03fbc526a9264a9bed0a02d5c63172bb6381ef8f80ce9360c",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G08": {
+      "text_hash": "c00d5997aa0556c1f430b9e8a4e37cd111e11c9b03151d22eba96e0f974341ac",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G09": {
+      "text_hash": "321b50e0e8cf8393ab943a5288493abcc4e6d154e73f3644a03f7673025947c0",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G10": {
+      "text_hash": "f0d2ebff16b87c96f7f049e69801216484af54ee3a77f1796a42bfc67499a795",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G11": {
+      "text_hash": "0125b351ce5d6a610d50171df83a04986eca1c49dc8bfedb9639a340dd083e82",
+      "redactions": {
+        "PERSON": 1
+      },
+      "text_unchanged": false
+    },
+    "G12": {
+      "text_hash": "e69c6d15cfb682d5607a800d280dac1d08e9efc954a106d3a84c67b45cf392f0",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G13": {
+      "text_hash": "750f68f854eedb9e3fe303fb8e278228d08727ca8d83542646ba3ab622249831",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G14": {
+      "text_hash": "07f2fef8ddfbb35abb602738fc3f46e3b973919d98941266b603071b35585579",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G15": {
+      "text_hash": "014541efbdadcefd9e46e197d60fcbba1572d0a496772d12b8a4cf4ba9a84f7a",
+      "redactions": {
+        "PERSON": 1
+      },
+      "text_unchanged": false
+    },
+    "G16": {
+      "text_hash": "017d0b8d10b881770b6c725a10d1d1300d57484c7bd8bb1dbc195308ba5f0873",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G17": {
+      "text_hash": "d7b7c852042410463eb33ff5495f8c964d95f1f2dfe6d8c6f5e2371db34eb47f",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G18": {
+      "text_hash": "fef572146a48449e44b3e95b6a2c548d9b24b73641e273c624a24b94a7c46bd2",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G19": {
+      "text_hash": "be5a8804fa37b7243cde051fd0c7e4e80f19f2f2e6a60f75f4ba2a3acaa5a977",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G20": {
+      "text_hash": "c8e794359b6218ae94ffe05749ca12400754339212f7c7090d72de6720b19996",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G21": {
+      "local_code": "UNKNOWN_SENDER"
+    },
+    "G22": {
+      "text_hash": "848051b5148a76f01e1b2979fec9777847109a59d1eb273c1f695d46d7ee7cac",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G23": {
+      "text_hash": "45808c38ef6d9a078230748b3720e4c2fc8b68f24e6407419eaf60c01f64c18b",
+      "redactions": {},
+      "text_unchanged": true
+    },
+    "G24": {
+      "text_hash": "5032e2537bb4d062bcc3e31861fb53940c1f7846e52afb6ebacaf29e38c762d6",
+      "redactions": {
+        "PERSON": 2,
+        "EMAIL": 1,
+        "PHONE": 1,
+        "ADDRESS": 1
+      },
+      "text_unchanged": false,
+      "business_text_intact": true,
+      "signature_markers": [
+        "[ADDRESS]",
+        "[EMAIL]",
+        "[PERSON]",
+        "[PHONE]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"at": "2026-11-11T11:31:40.812966+00:00", "run_id": "5f14f75a477045e099a5bbc418710b53", "request_id": "G24", "mode": "routerai", "event": "replay", "result": {"decision": "refund", "order_id": "O-2024", "policy_rules": ["P3", "P4", "P5", "P6", "P7"], "refund": {"lines": [{"sku": "CAM-WEB", "qty": 1, "amount": 6490}], "total": 6490}, "proposed_refund_total": null}}

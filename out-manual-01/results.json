@@ -1,0 +1,40 @@
+[
+  {
+    "request_id": "MANUAL-01",
+    "decision": "refund",
+    "order_id": "O-1001",
+    "policy_rules": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "refund": {
+      "lines": [
+        {
+          "sku": "KTL-200",
+          "qty": 1,
+          "amount": 4990
+        }
+      ],
+      "total": 4990,
+      "method": "card **** 4417"
+    },
+    "proposed_refund_total": null,
+    "message_to_customer": "По заказу O-1001 оформлен возврат 4990 ₽ на исходный способ оплаты.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "MANUAL-02",
+    "decision": "escalate",
+    "order_id": "O-1001",
+    "policy_rules": [
+      "P9"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": null,
+    "note_for_staff": "В обращении нет просьбы вернуть товар. Разберите вопрос клиента отдельно."
+  }
+]

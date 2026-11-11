@@ -1,0 +1,215 @@
+{
+  "captured_at_utc": "2026-11-11T11:31:56.331967+00:00",
+  "input_sha256": "325c599fada8c726af2202616faa5ac03891e804e8b0d1e101ba213edd1f8aec",
+  "files": {
+    "state.json": "a9e8130701cb4e253f3a4dbf397db58d8caf21337384a283f5e3e6abcdc545a6",
+    "results.json": "97aac69e24a340042244824df54eecb93e955c9c29b0a4299de67d3cde10db6c",
+    "refunds.json": "e53b955d22f076d6019b02753d42635bd47dce49ce4ea0a513bdb9cc521023c5"
+  },
+  "run_id": "5f14f75a477045e099a5bbc418710b53",
+  "trace_hashes": {
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G01.jsonl": "17b7130d4910ebd0e040dedf308de00def49205efe1caeb3ce8b9ee73e3cf581",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G02.jsonl": "7976660b401d4a6a5606763593c74c3a113ce13d02d73481f1c18175e54a5625",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G03.jsonl": "56c4bcd2a9d27ade2209ed453a3070a6b67c6a4b13905b0e266938d5eee5b061",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G04.jsonl": "ef4b18f8dde75dccc72f5024bc1e1fd623c7df8d04666505658d89520e4baa8e",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G05.jsonl": "7681c4118d49edc791a047b109870d466f2f7cd87d3fc5c1a86c6ccfa339944b",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G06.jsonl": "265374fcb751ab224bf06919abbf30318ad6e3e2a0fd6881928bf700532a0214",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G07.jsonl": "8c4723322fbeb8447ab61d4e20a1e58ec426098a79cb79412a323f57f3be3445",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G08.jsonl": "3a88af8dd05a15dc40c8cc08a0578c82c3d13fd55cf0decdcac6568f8cc5e1c6",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G09.jsonl": "cfb21b6ed170c6744fec43ca1c43593ccf7c920268464924c40198a7232972db",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G10.jsonl": "de0e191a7d7ff441e92563e2c129ce0716a817fc1735b846c093bd19c94e93ec",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G11.jsonl": "0473586abb49a0dc366034214c93909b3a9fc0489ce371f74cb98cdc3cafdca5",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G12.jsonl": "49b6fd1b4e999aa8411ce2b5506bde7dc4f10aee6a3d5f59a7cdb1fa9b552a95",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G13.jsonl": "61b7c2c0ed24744f8fc9b83efb573f253da9e168fd132c9d234a3b9b2fdedc47",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G14.jsonl": "34be0cada879ac036c90fa7ee20815f0f07607dec234921bb7af001c88bd2a56",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G15.jsonl": "36c010e334010111b6d4f0a67a9435571973751f2fad7c1e5d9e8c55278a4ab3",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G16.jsonl": "c32cd86dcf248b361ee95f339acb18d886109c7fb465fdd9d0dfdf74e14719d8",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G17.jsonl": "bf7293739070dfb18be5d2b59b6c3c2214b0a84c458de3dd9316f1ed3e8c70f7",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G18.jsonl": "c6203030b79a9aebf6bc62d4b85330d4252f781b5b2f919e4db8d9ad3a96d885",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G19.jsonl": "ba77bac992db481bc2338d0cd73f5731809753f0b9578186b090b636fad4c6ca",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G20.jsonl": "348c6af0a680c6e469a9bbcfce94c3876e1a0e23c8d3cc717b8550d0e99fddf1",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G21.jsonl": "d92e541c50f153e7073129abd6a5eebdc2ad9a33125694a859e7c92fe2519c73",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G22.jsonl": "c8b41aed5730b46f4f643dc47399f4cde7ce6772d7d7ca03d4d4ffee216e794b",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G23.jsonl": "4c029256a48a7bd81ebc0048edf0a52cc4619889b4f5acec44e77cc17dfe8d2f",
+    "traces/5f14f75a477045e099a5bbc418710b53/case_G24.jsonl": "97a41f760d061901e9df90f753138cd304bb0b8e318fa49eb005aa114f5a56b7"
+  },
+  "stdout_counts": {
+    "processed": 24,
+    "cached": 24,
+    "http_requests": 0
+  },
+  "core_score": [
+    24,
+    24
+  ],
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "events": {
+    "replay": 24
+  },
+  "per_case": {
+    "G01": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G02": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G03": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G04": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G05": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G06": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G07": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G08": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G09": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G10": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G11": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G12": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G13": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G14": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G15": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G16": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G17": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G18": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G19": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G20": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G21": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G22": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G23": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    },
+    "G24": {
+      "requests": 0,
+      "responses": 0,
+      "local": 0,
+      "replay": 1
+    }
+  },
+  "aliases": {},
+  "models": {},
+  "http_errors": {},
+  "cases_with_responses": [],
+  "decisions": {
+    "refund": 10,
+    "escalate": 8,
+    "reject": 6
+  },
+  "proposals": {
+    "G13": 50001
+  },
+  "ledger_count": 11,
+  "ledger_total": 99049,
+  "new_count": 10,
+  "new_total": 98015,
+  "first_trace_files_unchanged": true,
+  "same_artifact_hashes": true,
+  "same_input_as_preflight": true
+}

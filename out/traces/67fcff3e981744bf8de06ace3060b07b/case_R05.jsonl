@@ -1,0 +1,1 @@
+{"at": "2026-11-11T09:17:27.532994+00:00", "run_id": "67fcff3e981744bf8de06ace3060b07b", "request_id": "R05", "mode": "routerai", "event": "replay", "result": {"decision": "refund", "order_id": "O-1005", "policy_rules": ["P3", "P4", "P5", "P6", "P7"], "refund": {"lines": [{"sku": "MON-27", "qty": 1, "amount": 23490}], "total": 23490}, "proposed_refund_total": null}}

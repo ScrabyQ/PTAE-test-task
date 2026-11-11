@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "source_hash": "414a3916e7d21cf8e2e76169a42ab361d17850e34001061d02032fa93804b2d1",
+  "refunds": [
+    {
+      "lines": [
+        {
+          "sku": "CBL-C1",
+          "qty": 2,
+          "amount": 1034
+        }
+      ],
+      "total": 1034,
+      "method": "card **** 4455",
+      "refund_id": "RF-HIST-G16",
+      "order_id": "O-2016",
+      "request_id": "HIST-G16",
+      "created_at": "2026-11-04"
+    },
+    {
+      "lines": [
+        {
+          "sku": "KBD-MECH",
+          "qty": 1,
+          "amount": 5490
+        }
+      ],
+      "total": 5490,
+      "method": "card **** 4455",
+      "refund_id": "RF-0002",
+      "order_id": "O-2001",
+      "request_id": "G01",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "CBL-C1",
+          "qty": 2,
+          "amount": 1034
+        }
+      ],
+      "total": 1034,
+      "method": "card **** 4455",
+      "refund_id": "RF-0003",
+      "order_id": "O-2002",
+      "request_id": "G02",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "SSD-2T",
+          "qty": 1,
+          "amount": 13490
+        }
+      ],
+      "total": 13490,
+      "method": "card **** 4455",
+      "refund_id": "RF-0004",
+      "order_id": "O-2003",
+      "request_id": "G03",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "KBD-MECH",
+          "qty": 1,
+          "amount": 5490
+        }
+      ],
+      "total": 5490,
+      "method": "card **** 4455",
+      "refund_id": "RF-0005",
+      "order_id": "O-2005",
+      "request_id": "G05",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "CAM-WEB",
+          "qty": 1,
+          "amount": 6490
+        }
+      ],
+      "total": 6490,
+      "method": "card **** 4455",
+      "refund_id": "RF-0006",
+      "order_id": "O-2007",
+      "request_id": "G07",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "KEY-EDIT",
+          "qty": 1,
+          "amount": 2490
+        }
+      ],
+      "total": 2490,
+      "method": "card **** 4455",
+      "refund_id": "RF-0007",
+      "order_id": "O-2010",
+      "request_id": "G10",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "MON-32",
+          "qty": 1,
+          "amount": 50000
+        }
+      ],
+      "total": 50000,
+      "method": "card **** 4455",
+      "refund_id": "RF-0008",
+      "order_id": "O-2012",
+      "request_id": "G12",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "CBL-C1",
+          "qty": 2,
+          "amount": 1034
+        },
+        {
+          "sku": "KBD-MECH",
+          "qty": 1,
+          "amount": 5490
+        }
+      ],
+      "total": 6524,
+      "method": "card **** 4455",
+      "refund_id": "RF-0009",
+      "order_id": "O-2014",
+      "request_id": "G14",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "CBL-C1",
+          "qty": 1,
+          "amount": 517
+        }
+      ],
+      "total": 517,
+      "method": "card **** 4455",
+      "refund_id": "RF-0010",
+      "order_id": "O-2016",
+      "request_id": "G17",
+      "created_at": "2026-11-10"
+    },
+    {
+      "lines": [
+        {
+          "sku": "CAM-WEB",
+          "qty": 1,
+          "amount": 6490
+        }
+      ],
+      "total": 6490,
+      "method": "card **** 4455",
+      "refund_id": "RF-0011",
+      "order_id": "O-2024",
+      "request_id": "G24",
+      "created_at": "2026-11-10"
+    }
+  ],
+  "processed_results": {
+    "G01": {
+      "request_hash": "ac1a1f335922ea45438ea9d5a8ceb8e83699d7e6117cd1ea51e0b6cdc2f170b0",
+      "action_hash": "7d40c101675ed40883137b3085b4b885a67e7fd1746616cc07c4def08ea2c683",
+      "received_at": "2026-11-10T09:01:00+03:00",
+      "result": {
+        "request_id": "G01",
+        "decision": "refund",
+        "order_id": "O-2001",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "KBD-MECH",
+              "qty": 1,
+              "amount": 5490
+            }
+          ],
+          "total": 5490,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2001 оформлен возврат 5490 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G02": {
+      "request_hash": "e4ee0ec30c9e01b1022477b131e64362070b1bf554c29d6cf2d0c1afb8630bb5",
+      "action_hash": "3d6dd1a308f0477beb1b0f61a0bddd8a42bd3a8d37a29c299b886626cdaf3aad",
+      "received_at": "2026-11-10T09:02:00+03:00",
+      "result": {
+        "request_id": "G02",
+        "decision": "refund",
+        "order_id": "O-2002",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "CBL-C1",
+              "qty": 2,
+              "amount": 1034
+            }
+          ],
+          "total": 1034,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2002 оформлен возврат 1034 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G03": {
+      "request_hash": "b4e2df5884ba93002f275e3a8a8f64572202898d3c29b09dd3624de7a4679983",
+      "action_hash": "9419a41df12a3bb0653322497b6ee6e42264628ae94cc1181f011b81e2262348",
+      "received_at": "2026-11-10T09:03:00+03:00",
+      "result": {
+        "request_id": "G03",
+        "decision": "refund",
+        "order_id": "O-2003",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "SSD-2T",
+              "qty": 1,
+              "amount": 13490
+            }
+          ],
+          "total": 13490,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2003 оформлен возврат 13490 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G04": {
+      "request_hash": "8b8a2331babfbf44cd03fbc57643573b9131766add6ad2647f856884e3f98a6e",
+      "action_hash": "4efd1ee2d12f3bf497f53e9e610a14e1548480afff6f4cf1cb3d9819de4d86c8",
+      "received_at": "2026-11-10T09:04:00+03:00",
+      "result": {
+        "request_id": "G04",
+        "decision": "escalate",
+        "order_id": "O-2004",
+        "policy_rules": [
+          "P8"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Уточните у клиента наименование или SKU возвращаемого товара."
+      }
+    },
+    "G05": {
+      "request_hash": "3ecfc2a0c5abd80dac83d706b93bf4488948b17d391b8e196d2029d73e352c19",
+      "action_hash": "b9362b44b05bea8b0686974eba228c2df6819929051fc982ebf88ba664c34369",
+      "received_at": "2026-11-10T09:05:00+03:00",
+      "result": {
+        "request_id": "G05",
+        "decision": "refund",
+        "order_id": "O-2005",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "KBD-MECH",
+              "qty": 1,
+              "amount": 5490
+            }
+          ],
+          "total": 5490,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2005 оформлен возврат 5490 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G06": {
+      "request_hash": "4687b114894a348701300ffcbd4a6605a52fa012fe913d4091eba87b7b2763c0",
+      "action_hash": "1411f695c8d8ca56230a30c6e743ce621ca7891c6f51531c03a8d7dce1726656",
+      "received_at": "2026-11-10T09:06:00+03:00",
+      "result": {
+        "request_id": "G06",
+        "decision": "reject",
+        "order_id": "O-2006",
+        "policy_rules": [
+          "P1"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": "С даты доставки прошло больше 14 календарных дней. Срок возврата товара без брака истёк.",
+        "note_for_staff": null
+      }
+    },
+    "G07": {
+      "request_hash": "134657aa93d2c32289e516946be78feff1066fde36a92b9cac4b2f031a42e616",
+      "action_hash": "7d5adfbb6505eca4b2d9f52b3369303652068d6d33a6a8a4d9663ddda6e6493d",
+      "received_at": "2026-11-10T09:07:00+03:00",
+      "result": {
+        "request_id": "G07",
+        "decision": "refund",
+        "order_id": "O-2007",
+        "policy_rules": [
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "CAM-WEB",
+              "qty": 1,
+              "amount": 6490
+            }
+          ],
+          "total": 6490,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2007 оформлен возврат 6490 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G08": {
+      "request_hash": "a3b2a474681769e7eee9ffbeafac31ca82d63cc8f0eb7fb18fe971113b02c482",
+      "action_hash": "9d4ea69e4d7a6be48a9b22030a6ad4ba883fb318fbf18e0f069b5d9865eed8df",
+      "received_at": "2026-11-10T09:08:00+03:00",
+      "result": {
+        "request_id": "G08",
+        "decision": "reject",
+        "order_id": "O-2008",
+        "policy_rules": [
+          "P3"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": "Гарантийный срок с даты доставки истёк.",
+        "note_for_staff": null
+      }
+    },
+    "G09": {
+      "request_hash": "f043c8871ed1e2a44ad6300692fd97a1ab46e142cca557d1c6e4a8f46aae74fa",
+      "action_hash": "132f8f047700ab88f89f7e7d969ed881bc1bc82e8243ba3a2a540afb13db5f96",
+      "received_at": "2026-11-10T09:09:00+03:00",
+      "result": {
+        "request_id": "G09",
+        "decision": "reject",
+        "order_id": "O-2009",
+        "policy_rules": [
+          "P2"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": "Эта категория товаров без брака не подлежит возврату.",
+        "note_for_staff": null
+      }
+    },
+    "G10": {
+      "request_hash": "3725d37fc98eefd8df11511f62f48b3181d7f158bc39753a2d3f26e2da277d1c",
+      "action_hash": "a69a29f2e42a13b5116fb9151cd362afb6e49852fcc4475eeaf4845e1b8c6fc4",
+      "received_at": "2026-11-10T09:10:00+03:00",
+      "result": {
+        "request_id": "G10",
+        "decision": "refund",
+        "order_id": "O-2010",
+        "policy_rules": [
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "KEY-EDIT",
+              "qty": 1,
+              "amount": 2490
+            }
+          ],
+          "total": 2490,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2010 оформлен возврат 2490 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G11": {
+      "request_hash": "cd93b3510e23bd2653d2ff9b98be081c2f8dee2e5452c033713d599e433d11b9",
+      "action_hash": "2afbacbd6af556632cd11bef38a311b1adb331be56ffe8377c0bbe422c01ec98",
+      "received_at": "2026-11-10T09:11:00+03:00",
+      "result": {
+        "request_id": "G11",
+        "decision": "reject",
+        "order_id": "O-2011",
+        "policy_rules": [
+          "P2"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": "Эта категория товаров без брака не подлежит возврату.",
+        "note_for_staff": null
+      }
+    },
+    "G12": {
+      "request_hash": "65017600ae99b0950752d16bea5fa2cf6cea4c5440da27456c273b64e2c0a5de",
+      "action_hash": "48d74e2e47ee12f24eb566da4c3b1e05d19dc135f83026bd4bc58befff5989a5",
+      "received_at": "2026-11-10T09:12:00+03:00",
+      "result": {
+        "request_id": "G12",
+        "decision": "refund",
+        "order_id": "O-2012",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "MON-32",
+              "qty": 1,
+              "amount": 50000
+            }
+          ],
+          "total": 50000,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2012 оформлен возврат 50000 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G13": {
+      "request_hash": "3ed49e2d9c2cc9a5d1dcae61a180bcfa9285880ede9806e1c1e6a3df67418894",
+      "action_hash": "6eccac19c7a4b807992f31c2f0378a7151831e603f0751540c4f991ebb59c53d",
+      "received_at": "2026-11-10T09:13:00+03:00",
+      "result": {
+        "request_id": "G13",
+        "decision": "escalate",
+        "order_id": "O-2013",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": null,
+        "proposed_refund_total": 50001,
+        "message_to_customer": null,
+        "note_for_staff": "Расчёт по цене заказа — 50001 ₽. Сумма превышает лимит автоматического возврата. Передайте на согласование."
+      }
+    },
+    "G14": {
+      "request_hash": "d341f03c4d7019064f61ef9440cea7621ed82bee304868080d8b9b31f57b8b77",
+      "action_hash": "948bde8fd63be2ac1253dcdc40f3c56b15ac1dd267ead180cae5d41f808a4118",
+      "received_at": "2026-11-10T09:14:00+03:00",
+      "result": {
+        "request_id": "G14",
+        "decision": "refund",
+        "order_id": "O-2014",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "CBL-C1",
+              "qty": 2,
+              "amount": 1034
+            },
+            {
+              "sku": "KBD-MECH",
+              "qty": 1,
+              "amount": 5490
+            }
+          ],
+          "total": 6524,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2014 оформлен возврат 6524 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G15": {
+      "request_hash": "9d3d3ffab7d36470972fa46fd9b272b4430689a156debce939bcbca13951d01a",
+      "action_hash": "3d6bc3dc636a59a706ba1f8d7a4dc5c22570c2e2fbc9dfde4dd56e3236dfd4e9",
+      "received_at": "2026-11-10T09:15:00+03:00",
+      "result": {
+        "request_id": "G15",
+        "decision": "escalate",
+        "order_id": "O-2015",
+        "policy_rules": [
+          "P1",
+          "P2"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Часть позиций можно вернуть, для остальных действуют ограничения. Уточните состав возврата."
+      }
+    },
+    "G16": {
+      "request_hash": "1bd33364d0f70b082cc77da7741f454d636a43c2703ff556537063677c5e09c6",
+      "action_hash": "746b2d74e546753c499d3c94e357b07b5ae24be9f464b625dd62f85d96e5f8a2",
+      "received_at": "2026-11-10T09:16:00+03:00",
+      "result": {
+        "request_id": "G16",
+        "decision": "escalate",
+        "order_id": "O-2016",
+        "policy_rules": [
+          "P7"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Запрос превышает остаток с учётом уже оформленных возвратов. Согласуйте с клиентом количество."
+      }
+    },
+    "G17": {
+      "request_hash": "826088cda9d69ad6db55bf5c192002f2a87d4c3a08bc754d5792fb5cb1a05f86",
+      "action_hash": "59d829aad36168283fd01e5175472eef3a6ce7f5b6aa1ca131e684c05ec5d7f5",
+      "received_at": "2026-11-10T09:17:00+03:00",
+      "result": {
+        "request_id": "G17",
+        "decision": "refund",
+        "order_id": "O-2016",
+        "policy_rules": [
+          "P1",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "CBL-C1",
+              "qty": 1,
+              "amount": 517
+            }
+          ],
+          "total": 517,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2016 оформлен возврат 517 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "G18": {
+      "request_hash": "4543e73c726603c563b00616afdfe3c2e6cd4812798d2cf0f8127dfba11278d9",
+      "action_hash": "4897baa63be2fffa925d29ae0a2efd0278022775f58c2c914125696c322c85db",
+      "received_at": "2026-11-10T09:18:00+03:00",
+      "result": {
+        "request_id": "G18",
+        "decision": "reject",
+        "order_id": "O-2016",
+        "policy_rules": [
+          "P7"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": "Все запрошенные единицы уже возвращены.",
+        "note_for_staff": null
+      }
+    },
+    "G19": {
+      "request_hash": "b98ebc1ea2c27f627d181580b3e5673f0add393fe709b83f94866114462dc751",
+      "action_hash": "ad006bc27e4a6b4a1d5d9c5ec7b44ea1251e0fff9c53f00c4ef3f304620ec215",
+      "received_at": "2026-11-10T09:19:00+03:00",
+      "result": {
+        "request_id": "G19",
+        "decision": "escalate",
+        "order_id": null,
+        "policy_rules": [
+          "P8"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Заказ не удалось однозначно сопоставить с обращением. Уточните номер заказа."
+      }
+    },
+    "G20": {
+      "request_hash": "8bb8f0b6cb2accb3eafed4e80b3b53e1c189cc9cb0992a60c6015c466a6a4ba3",
+      "action_hash": "ad006bc27e4a6b4a1d5d9c5ec7b44ea1251e0fff9c53f00c4ef3f304620ec215",
+      "received_at": "2026-11-10T09:20:00+03:00",
+      "result": {
+        "request_id": "G20",
+        "decision": "escalate",
+        "order_id": null,
+        "policy_rules": [
+          "P8"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Заказ не удалось однозначно сопоставить с обращением. Уточните номер заказа."
+      }
+    },
+    "G21": {
+      "request_hash": "670f3444faf375e8adeea18f8d4f7f702b6cc79ae21261154a17001c6525827d",
+      "action_hash": "ad006bc27e4a6b4a1d5d9c5ec7b44ea1251e0fff9c53f00c4ef3f304620ec215",
+      "received_at": "2026-11-10T09:21:00+03:00",
+      "result": {
+        "request_id": "G21",
+        "decision": "escalate",
+        "order_id": null,
+        "policy_rules": [
+          "P8"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Отправитель не идентифицирован. Уточните номер заказа и контакт, использованный при покупке."
+      }
+    },
+    "G22": {
+      "request_hash": "b4414198b5846615a92aec3690e369211ea795d6e47ea6fe69a2920e78094de9",
+      "action_hash": "840f04606671bbb35ad29023777135532bcc9e856ecb2c53c60e79906c21bf74",
+      "received_at": "2026-11-10T09:22:00+03:00",
+      "result": {
+        "request_id": "G22",
+        "decision": "escalate",
+        "order_id": "O-2022",
+        "policy_rules": [
+          "P5"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "Клиент просит перечислить деньги на другие реквизиты. Уточните, согласен ли он на возврат исходным способом."
+      }
+    },
+    "G23": {
+      "request_hash": "17c7e81dd6df37f9f74fdf83eb1964e642ae97337c232c53132d88254e27dc84",
+      "action_hash": "7426bb4c5182e00ab1f5863fbf8badbec147c89c9aa2305d8e3f740a36b98800",
+      "received_at": "2026-11-10T09:23:00+03:00",
+      "result": {
+        "request_id": "G23",
+        "decision": "reject",
+        "order_id": "O-2023",
+        "policy_rules": [
+          "P1"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": "С даты доставки прошло больше 14 календарных дней. Срок возврата товара без брака истёк.",
+        "note_for_staff": null
+      }
+    },
+    "G24": {
+      "request_hash": "21dde97994b7a3edd77b0a7564afbd90ffa9842770983f1306a54b53b190f5f0",
+      "action_hash": "dafb52c966a54234dc9cffab9daf462b32a48d60090519f105600c9daa663f7c",
+      "received_at": "2026-11-10T09:24:00+03:00",
+      "result": {
+        "request_id": "G24",
+        "decision": "refund",
+        "order_id": "O-2024",
+        "policy_rules": [
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "CAM-WEB",
+              "qty": 1,
+              "amount": 6490
+            }
+          ],
+          "total": 6490,
+          "method": "card **** 4455"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-2024 оформлен возврат 6490 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    }
+  }
+}

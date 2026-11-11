@@ -1,0 +1,219 @@
+[
+  {
+    "request_id": "R01",
+    "decision": "refund",
+    "order_id": "O-1001",
+    "policy_rules": [
+      "P1",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "refund": {
+      "lines": [
+        {
+          "sku": "KTL-200",
+          "qty": 1,
+          "amount": 4990
+        }
+      ],
+      "total": 4990,
+      "method": "card **** 4417"
+    },
+    "proposed_refund_total": null,
+    "message_to_customer": "По заказу O-1001 оформлен возврат 4990 ₽ на исходный способ оплаты.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R02",
+    "decision": "refund",
+    "order_id": "O-1002",
+    "policy_rules": [
+      "P1",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "refund": {
+      "lines": [
+        {
+          "sku": "CBL-USB",
+          "qty": 2,
+          "amount": 1180
+        }
+      ],
+      "total": 1180,
+      "method": "card **** 2231"
+    },
+    "proposed_refund_total": null,
+    "message_to_customer": "По заказу O-1002 оформлен возврат 1180 ₽ на исходный способ оплаты.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R03",
+    "decision": "escalate",
+    "order_id": "O-1003",
+    "policy_rules": [
+      "P5",
+      "P10"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": null,
+    "note_for_staff": "Клиент просит перечислить деньги на другие реквизиты. Уточните, согласен ли он на возврат исходным способом."
+  },
+  {
+    "request_id": "R04",
+    "decision": "reject",
+    "order_id": "O-1004",
+    "policy_rules": [
+      "P1"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": "С даты доставки прошло больше 14 календарных дней. Срок возврата товара без брака истёк.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R05",
+    "decision": "refund",
+    "order_id": "O-1005",
+    "policy_rules": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "refund": {
+      "lines": [
+        {
+          "sku": "MON-27",
+          "qty": 1,
+          "amount": 23490
+        }
+      ],
+      "total": 23490,
+      "method": "SBP"
+    },
+    "proposed_refund_total": null,
+    "message_to_customer": "По заказу O-1005 оформлен возврат 23490 ₽ на исходный способ оплаты.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R06",
+    "decision": "reject",
+    "order_id": "O-1006",
+    "policy_rules": [
+      "P3"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": "Гарантийный срок с даты доставки истёк.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R07",
+    "decision": "reject",
+    "order_id": "O-1007",
+    "policy_rules": [
+      "P2"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": "Эта категория товаров без брака не подлежит возврату.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R08",
+    "decision": "escalate",
+    "order_id": null,
+    "policy_rules": [
+      "P8"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": null,
+    "note_for_staff": "Отправитель не идентифицирован. Уточните номер заказа и контакт, использованный при покупке."
+  },
+  {
+    "request_id": "R09",
+    "decision": "escalate",
+    "order_id": "O-1010",
+    "policy_rules": [
+      "P1",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "refund": null,
+    "proposed_refund_total": 86990,
+    "message_to_customer": null,
+    "note_for_staff": "Расчёт по цене заказа — 86990 ₽. Сумма превышает лимит автоматического возврата. Передайте на согласование."
+  },
+  {
+    "request_id": "R10",
+    "decision": "escalate",
+    "order_id": "O-1011",
+    "policy_rules": [
+      "P7"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": null,
+    "note_for_staff": "Уточните, сколько единиц каждой позиции клиент просит вернуть."
+  },
+  {
+    "request_id": "R11",
+    "decision": "reject",
+    "order_id": "O-1001",
+    "policy_rules": [
+      "P7"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": "Все запрошенные единицы уже возвращены.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R12",
+    "decision": "refund",
+    "order_id": "O-1012",
+    "policy_rules": [
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "refund": {
+      "lines": [
+        {
+          "sku": "PHN-A5",
+          "qty": 1,
+          "amount": 49490
+        }
+      ],
+      "total": 49490,
+      "method": "card **** 7780"
+    },
+    "proposed_refund_total": null,
+    "message_to_customer": "По заказу O-1012 оформлен возврат 49490 ₽ на исходный способ оплаты.",
+    "note_for_staff": null
+  },
+  {
+    "request_id": "R13",
+    "decision": "escalate",
+    "order_id": "O-1013",
+    "policy_rules": [
+      "P9"
+    ],
+    "refund": null,
+    "proposed_refund_total": null,
+    "message_to_customer": null,
+    "note_for_staff": "В обращении нет просьбы вернуть товар. Разберите вопрос клиента отдельно."
+  }
+]

@@ -1,0 +1,4 @@
+# Keep the saved run artifacts verifiable against their SHA-256 manifests on every platform.
+task_requirements/data-generalization.json text eol=lf
+out-generalization-live-01/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+out-manual-01/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

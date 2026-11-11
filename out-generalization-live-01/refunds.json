@@ -1,0 +1,172 @@
+[
+  {
+    "lines": [
+      {
+        "sku": "CBL-C1",
+        "qty": 2,
+        "amount": 1034
+      }
+    ],
+    "total": 1034,
+    "method": "card **** 4455",
+    "refund_id": "RF-HIST-G16",
+    "order_id": "O-2016",
+    "request_id": "HIST-G16",
+    "created_at": "2026-11-04"
+  },
+  {
+    "lines": [
+      {
+        "sku": "KBD-MECH",
+        "qty": 1,
+        "amount": 5490
+      }
+    ],
+    "total": 5490,
+    "method": "card **** 4455",
+    "refund_id": "RF-0002",
+    "order_id": "O-2001",
+    "request_id": "G01",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "CBL-C1",
+        "qty": 2,
+        "amount": 1034
+      }
+    ],
+    "total": 1034,
+    "method": "card **** 4455",
+    "refund_id": "RF-0003",
+    "order_id": "O-2002",
+    "request_id": "G02",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "SSD-2T",
+        "qty": 1,
+        "amount": 13490
+      }
+    ],
+    "total": 13490,
+    "method": "card **** 4455",
+    "refund_id": "RF-0004",
+    "order_id": "O-2003",
+    "request_id": "G03",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "KBD-MECH",
+        "qty": 1,
+        "amount": 5490
+      }
+    ],
+    "total": 5490,
+    "method": "card **** 4455",
+    "refund_id": "RF-0005",
+    "order_id": "O-2005",
+    "request_id": "G05",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "CAM-WEB",
+        "qty": 1,
+        "amount": 6490
+      }
+    ],
+    "total": 6490,
+    "method": "card **** 4455",
+    "refund_id": "RF-0006",
+    "order_id": "O-2007",
+    "request_id": "G07",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "KEY-EDIT",
+        "qty": 1,
+        "amount": 2490
+      }
+    ],
+    "total": 2490,
+    "method": "card **** 4455",
+    "refund_id": "RF-0007",
+    "order_id": "O-2010",
+    "request_id": "G10",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "MON-32",
+        "qty": 1,
+        "amount": 50000
+      }
+    ],
+    "total": 50000,
+    "method": "card **** 4455",
+    "refund_id": "RF-0008",
+    "order_id": "O-2012",
+    "request_id": "G12",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "CBL-C1",
+        "qty": 2,
+        "amount": 1034
+      },
+      {
+        "sku": "KBD-MECH",
+        "qty": 1,
+        "amount": 5490
+      }
+    ],
+    "total": 6524,
+    "method": "card **** 4455",
+    "refund_id": "RF-0009",
+    "order_id": "O-2014",
+    "request_id": "G14",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "CBL-C1",
+        "qty": 1,
+        "amount": 517
+      }
+    ],
+    "total": 517,
+    "method": "card **** 4455",
+    "refund_id": "RF-0010",
+    "order_id": "O-2016",
+    "request_id": "G17",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "CAM-WEB",
+        "qty": 1,
+        "amount": 6490
+      }
+    ],
+    "total": 6490,
+    "method": "card **** 4455",
+    "refund_id": "RF-0011",
+    "order_id": "O-2024",
+    "request_id": "G24",
+    "created_at": "2026-11-10"
+  }
+]

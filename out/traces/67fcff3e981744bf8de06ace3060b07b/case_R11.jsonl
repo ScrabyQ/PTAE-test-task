@@ -1,0 +1,1 @@
+{"at": "2026-11-11T09:17:27.542541+00:00", "run_id": "67fcff3e981744bf8de06ace3060b07b", "request_id": "R11", "mode": "routerai", "event": "replay", "result": {"decision": "reject", "order_id": "O-1001", "policy_rules": ["P7"], "refund": null, "proposed_refund_total": null}}

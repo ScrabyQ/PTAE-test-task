@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "source_hash": "4c4d3d74db0b922be3424edda894325b3246cb61089d03b62b5402cd421e62bb",
+  "refunds": [
+    {
+      "lines": [
+        {
+          "sku": "MSE-05",
+          "qty": 1,
+          "amount": 1490
+        }
+      ],
+      "total": 1490,
+      "method": "card **** 2231",
+      "refund_id": "RF-0001",
+      "order_id": "O-1011",
+      "request_id": "R-LEGACY-17",
+      "created_at": "2026-11-04"
+    },
+    {
+      "lines": [
+        {
+          "sku": "KTL-200",
+          "qty": 1,
+          "amount": 4990
+        }
+      ],
+      "total": 4990,
+      "method": "card **** 4417",
+      "refund_id": "RF-0002",
+      "order_id": "O-1001",
+      "request_id": "MANUAL-01",
+      "created_at": "2026-11-10"
+    }
+  ],
+  "processed_results": {
+    "MANUAL-01": {
+      "request_hash": "c52b1988ffeec484d9ec3c621c4f982d839ed86f6fdf26f04520050fdedf9984",
+      "action_hash": "129c572e137ebfc4e316abda1b71238d1870daab2ca2e5774c80051f43145443",
+      "received_at": "2026-11-10T12:00:00+03:00",
+      "result": {
+        "request_id": "MANUAL-01",
+        "decision": "refund",
+        "order_id": "O-1001",
+        "policy_rules": [
+          "P3",
+          "P4",
+          "P5",
+          "P6",
+          "P7"
+        ],
+        "refund": {
+          "lines": [
+            {
+              "sku": "KTL-200",
+              "qty": 1,
+              "amount": 4990
+            }
+          ],
+          "total": 4990,
+          "method": "card **** 4417"
+        },
+        "proposed_refund_total": null,
+        "message_to_customer": "По заказу O-1001 оформлен возврат 4990 ₽ на исходный способ оплаты.",
+        "note_for_staff": null
+      }
+    },
+    "MANUAL-02": {
+      "request_hash": "e42504b946be27533745659151504c51202b0b56aff2ae5f37cff3b566c90361",
+      "action_hash": "fd77742ba46b7128e8e78775f8977676528a2a4adf81079c7f9a7550d6b5c161",
+      "received_at": "2026-11-10T12:05:00+03:00",
+      "result": {
+        "request_id": "MANUAL-02",
+        "decision": "escalate",
+        "order_id": "O-1001",
+        "policy_rules": [
+          "P9"
+        ],
+        "refund": null,
+        "proposed_refund_total": null,
+        "message_to_customer": null,
+        "note_for_staff": "В обращении нет просьбы вернуть товар. Разберите вопрос клиента отдельно."
+      }
+    }
+  }
+}

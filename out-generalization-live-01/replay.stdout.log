@@ -1,0 +1,4 @@
+Обработано 24, из состояния 24, HTTP-запросов к RouterAI 0. Решения {'refund': 10, 'escalate': 8, 'reject': 6}.
+Выгрузки и состояние в D:\MyProjects\agents-engineer-test-task\out-generalization-live-01. Трассы прогона 5f14f75a477045e099a5bbc418710b53.
+Eval: совпало 24/24.
+Финансовые инварианты и выгрузки проверены для 24 решений.

@@ -1,0 +1,1 @@
+{"at": "2026-11-11T11:31:40.795036+00:00", "run_id": "5f14f75a477045e099a5bbc418710b53", "request_id": "G17", "mode": "routerai", "event": "replay", "result": {"decision": "refund", "order_id": "O-2016", "policy_rules": ["P1", "P4", "P5", "P6", "P7"], "refund": {"lines": [{"sku": "CBL-C1", "qty": 1, "amount": 517}], "total": 517}, "proposed_refund_total": null}}

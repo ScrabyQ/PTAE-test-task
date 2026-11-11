@@ -1,0 +1,77 @@
+[
+  {
+    "lines": [
+      {
+        "sku": "MSE-05",
+        "qty": 1,
+        "amount": 1490
+      }
+    ],
+    "total": 1490,
+    "method": "card **** 2231",
+    "refund_id": "RF-0001",
+    "order_id": "O-1011",
+    "request_id": "R-LEGACY-17",
+    "created_at": "2026-11-04"
+  },
+  {
+    "lines": [
+      {
+        "sku": "KTL-200",
+        "qty": 1,
+        "amount": 4990
+      }
+    ],
+    "total": 4990,
+    "method": "card **** 4417",
+    "refund_id": "RF-0002",
+    "order_id": "O-1001",
+    "request_id": "R01",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "CBL-USB",
+        "qty": 2,
+        "amount": 1180
+      }
+    ],
+    "total": 1180,
+    "method": "card **** 2231",
+    "refund_id": "RF-0003",
+    "order_id": "O-1002",
+    "request_id": "R02",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "MON-27",
+        "qty": 1,
+        "amount": 23490
+      }
+    ],
+    "total": 23490,
+    "method": "SBP",
+    "refund_id": "RF-0004",
+    "order_id": "O-1005",
+    "request_id": "R05",
+    "created_at": "2026-11-10"
+  },
+  {
+    "lines": [
+      {
+        "sku": "PHN-A5",
+        "qty": 1,
+        "amount": 49490
+      }
+    ],
+    "total": 49490,
+    "method": "card **** 7780",
+    "refund_id": "RF-0005",
+    "order_id": "O-1012",
+    "request_id": "R12",
+    "created_at": "2026-11-10"
+  }
+]
